@@ -1,0 +1,6 @@
+# Nuclear stuff
+.idea
+
+*.pyc
+
+.venv
