@@ -9,7 +9,7 @@ img2 = np.zeros((400, 400), dtype=np.uint8)
 cv2.rectangle(img1, (50, 50), (350, 350), (255, 255, 255), -1)
 
 # Draw a circle on img2
-cv2.circle(img2, (200, 200), 150, (255, 255, 255), -1)
+cv2.circle(img2, (200, 200), 200, (255, 255, 255), -1)
 
 # Perform bitwise AND
 bitwise_and = cv2.bitwise_and(img1, img2)
